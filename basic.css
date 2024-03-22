@@ -1,0 +1,84 @@
+
+.container {
+    display: flex;
+}
+.container > li {
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: #503D3F;
+    border: 5px solid #539987;
+    display: flex;
+    flex: 1 1 0;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #52FFB8;
+}
+html, body {
+    background-color: #503D3F;
+    margin: 10px;
+    height: 100%;
+    padding: 10px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 250%;
+    font-family: Lucida Handwriting;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 1px 1px 0 #52FFB8;
+    color: #DDAE7E;
+}
+.fancy {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(82, 255, 184, 0.5);
+
+}
+.advertisement {
+    color: #3C887E;
+    text-align: center;
+    font-style: italic;
+}
+.coffee{
+    color: #3C887E;
+    text-align: center;
+    
+}
+.flavors{
+    color: #3C887E;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+}
+.price{
+    color: #DDAE7E;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #52FFB8;
+}
+.cup img {
+    max-width: 15%;
+    box-shadow: 0 0 10px rgba(82, 255, 184, 0.5);
+}
+    .description {
+        font-size: 125%;
+        color: #DDAE7E;
+        text-shadow: 1px 1px 0 black;
+    }
+.footer {
+    padding: 1px;
+    text-align: center;
+    color: #503D3F;
+    font-weight: bold;
+    border: 5px solid #539987;
+    display: flex;
+    flex: 1 1 0;
+    justify-content: center;
+    background-color: #52FFB8;
+    
+
+}
